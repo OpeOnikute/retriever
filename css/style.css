@@ -1,0 +1,92 @@
+html, body{ height:100%; margin:0; }
+
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Sora', sans-serif;
+    color: #051c71;
+}
+
+h2.welcome {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+}
+
+.results {
+    text-align: center;
+}
+
+.file-row {
+    display: flex;
+}
+
+.file-row label {
+    margin-right: 15px;
+}
+
+.file-row {
+    padding: 3vh 0;
+    text-align: left;
+}
+
+.row {
+    padding: 3vh 0;
+    text-align: center;
+}
+
+#results-text {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+    font-size: 300%;
+}
+
+.per-month {
+    margin-top: 0;
+}
+
+.giveaway {
+    margin-top: 10vh;
+}
+
+.footer {
+    /* clear: both;
+    position: relative;
+    height: 20px;
+    margin-top: -20px; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background: #051c71;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.submit-btn:disabled {
+    color: -internal-light-dark-color(rgba(16, 16, 16, 0.3), rgb(170, 170, 170));
+    background-color: -internal-light-dark-color(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    border-color: -internal-light-dark-color(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3))
+}
+
+#submit-btn {
+    font-family: 'Sora', sans-serif;
+    color: white;
+    background-color: #051c71;
+    padding: 10px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #941711;
+}
