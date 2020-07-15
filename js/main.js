@@ -99,10 +99,12 @@ function clearResult() {
     resultDiv.hide();
     resultText.html("").hide();
 }
+
 function showResult (result) {
 
     // format result (commas)
-    const formatted = result.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+    
+    const formatted = Math.ceil(result).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 
     const resultDiv = $("#results");
     const resultText = $("#results-text");
