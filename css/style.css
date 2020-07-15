@@ -62,7 +62,8 @@ h2.welcome {
     left: 0;
     text-align: center;
     width: 100%;
-    padding: 30px;
+    padding: 15px;
+    font-size: smaller;
     background: #051c71;
     color: white;
 }
