@@ -81,7 +81,7 @@ function calculateResult(items) {
     let result = 0;
 
     for (let item of items) {
-        result += (item.amount * item.interest * 100) / item.duration;
+        result += (item.amount * item.interest * 0.01) / item.duration;
     }
 
     return result;
