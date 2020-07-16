@@ -81,7 +81,11 @@ function calculateResult(items) {
     let result = 0;
 
     for (let item of items) {
-        result += (item.amount * item.interest * 0.01) / item.duration;
+        if (!item.amount || !item.duration || !item.interest) {
+            continue;
+        }
+        let amount = parseFloat(item.amount);
+        result += (amount * item.interest * 0.01) / item.duration;
     }
 
     return result;
