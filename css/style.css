@@ -20,10 +20,6 @@ h2.welcome {
     text-align: center;
 }
 
-.file-row {
-    display: flex;
-}
-
 .file-row label {
     margin-right: 15px;
 }
