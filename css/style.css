@@ -2,6 +2,7 @@ html, body{ height:100%; margin:0; }
 
 
 div.main {
+    padding: 0 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,12 +69,6 @@ h2.welcome {
     text-align: center;
 }
 
-.submit-btn:disabled {
-    color: -internal-light-dark-color(rgba(16, 16, 16, 0.3), rgb(170, 170, 170));
-    background-color: -internal-light-dark-color(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
-    border-color: -internal-light-dark-color(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3))
-}
-
 #submit-btn {
     font-family: 'Sora', sans-serif;
     color: white;
@@ -81,6 +76,12 @@ h2.welcome {
     padding: 10px 15px;
     border-radius: 5px;
     letter-spacing: 1px;
+}
+
+#submit-btn:disabled {
+    color:rgb(119, 119, 119);
+    background-color: rgba(19, 1, 1, 0.3);
+    border-color: rgba(195, 195, 195, 0.3);
 }
 
 a {
