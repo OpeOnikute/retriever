@@ -38,6 +38,7 @@ h2.welcome {
 #results-text {
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 0;
+    margin-top: 5vh;
     font-size: 300%;
 }
 
@@ -46,7 +47,11 @@ h2.welcome {
 }
 
 .giveaway {
-    margin-top: 10vh;
+    margin-top: 5vh;
+}
+
+.giveaway img {
+    max-height: 35vh;
 }
 
 .footer {
